@@ -5,7 +5,7 @@ div {
 */
 
 
-.spille_skaerm {
+#start {
     background-image: url("Start_skaerm.svg");
     background-size: cover;
     width: 100vw;
@@ -17,7 +17,7 @@ div {
     display: none;
 }
 
-.lille_pige {
+#lille_pige {
     background-image: url("Start_skaerm%20lille%20pige.svg");
     background-size: cover;
     width: 100vw;
@@ -30,7 +30,7 @@ div {
 }
 
 
-.Settings menu {
+#Settings menu {
     background-image: url("musik.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -43,7 +43,7 @@ div {
     display: none;
 }
 
-.Settings menu {
+#Settings menu {
     background-image: url("lyd.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -56,7 +56,7 @@ div {
     display: none;
 }
 
-.play {
+#play {
     background-image: url("play.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -71,7 +71,7 @@ div {
 
 
 
-.rum {
+#game {
     background-image: url("spille_skaerm_Rum.svg");
     background-size: cover;
     width: 100vw;
@@ -80,10 +80,10 @@ div {
     z-index: -4;
     position: relative;
     overflow: visible;
-    /***alt udover rummet væk**/
+
 }
 
-.luftskib {
+#luftskib {
     background-image: url("Lufrskib.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -98,7 +98,7 @@ div {
 
 }
 
-.Bakke_2 {
+#Bakke_2 {
     background-image: url("Bakke_2.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -111,7 +111,7 @@ div {
     z-index: -2;
 }
 
-.Bakke_1_kopi {
+#Bakke_1_kopi {
     background-image: url("bakke_1_kopi.svg");
     background-size: 100%;
     width: 55vw;
@@ -122,7 +122,7 @@ div {
     z-index: -1;
 }
 
-.trae {
+#trae {
     background-image: url("Trae.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -135,7 +135,7 @@ div {
 }
 
 
-.trae_1 {
+#trae_1 {
     background-image: url("Trae.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -147,7 +147,7 @@ div {
     left: 70vw;
 }
 
-.trae_2 {
+#trae_2 {
     background-image: url("Trae.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -159,7 +159,7 @@ div {
     left: 85vw;
 }
 
-.ishus {
+#ishus {
     background-image: url("Ishus.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -173,7 +173,7 @@ div {
 }
 
 
-.spille_skaerm_forgrund {
+#spille_skaerm_forgrund {
     background-image: url("spille_skaerm%20forgrund.svg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -187,7 +187,7 @@ div {
 }
 
 
-.slut {
+#slut {
 
     background-image: url("Level_Complete.svg");
     background-size: cover;
@@ -202,7 +202,7 @@ div {
 
 
 
-.level_complete {
+#level_complete {
 
     background-image: url("Level_Complete.svg");
     background-size: cover;
@@ -215,7 +215,7 @@ div {
     display: none;
 }
 
-.slut {
+#slut {
 
     background-image: url("slut.svg");
     background-size: cover;
