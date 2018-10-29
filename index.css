@@ -1,0 +1,230 @@
+/*
+div {
+    outline: 2px dotted yellow;
+}
+*/
+
+
+.spille_skaerm {
+    background-image: url("Start_skaerm.svg");
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+    margin: auto;
+    z-index: -5;
+    position: relative;
+    overflow: visible;
+    display: none;
+}
+
+.lille_pige {
+    background-image: url("Start_skaerm%20lille%20pige.svg");
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+    margin: auto;
+    z-index:
+        position: relative;
+    overflow: visible;
+    display: none;
+}
+
+
+.Settings menu {
+    background-image: url("musik.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    left: 15vw;
+    top: 1VW;
+    z-index: -1;
+    display: none;
+}
+
+.Settings menu {
+    background-image: url("lyd.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    left: 15vw;
+    top: 1VW;
+    z-index: -1;
+    display: none;
+}
+
+.play {
+    background-image: url("play.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    left: 15vw;
+    top: 1VW;
+    z-index: -1;
+    display: none;
+}
+
+
+
+.rum {
+    background-image: url("spille_skaerm_Rum.svg");
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+    margin: auto;
+    z-index: -4;
+    position: relative;
+    overflow: visible;
+    /***alt udover rummet væk**/
+}
+
+.luftskib {
+    background-image: url("Lufrskib.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    /**det står i forhold til rummet**/
+    left: 15vw;
+    top: 1VW;
+    z-index: -3;
+    /*hvor de placeret på billedet*/
+
+}
+
+.Bakke_2 {
+    background-image: url("Bakke_2.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 40vw;
+    /**det skal være det antal gange det tal height skal være**/
+    height: 96vw;
+    position: absolute;
+    left: 2vw;
+    top: 21VW;
+    z-index: -2;
+}
+
+.Bakke_1_kopi {
+    background-image: url("bakke_1_kopi.svg");
+    background-size: 100%;
+    width: 55vw;
+    height: 21.56vw;
+    position: absolute;
+    left: 43vw;
+    top: 21vw;
+    z-index: -1;
+}
+
+.trae {
+    background-image: url("Trae.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 11vw;
+    height: 18.9vw;
+    position: absolute;
+    z-index: 0;
+    top: 6vw;
+    left: 80vw;
+}
+
+
+.trae_1 {
+    background-image: url("Trae.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 11vw;
+    height: 18.9vw;
+    position: absolute;
+    z-index: 1;
+    top: 10vw;
+    left: 70vw;
+}
+
+.trae_2 {
+    background-image: url("Trae.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 11vw;
+    height: 18.9vw;
+    position: absolute;
+    z-index: 1;
+    top: 12vw;
+    left: 85vw;
+}
+
+.ishus {
+    background-image: url("Ishus.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15vw;
+    height: 20.5vw;
+    position: absolute;
+    z-index: 2;
+    top: 25vw;
+    left: 5vw;
+
+}
+
+
+.spille_skaerm_forgrund {
+    background-image: url("spille_skaerm%20forgrund.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 170vw;
+    position: absolute;
+    z-index: 3;
+    top: 0vw;
+    left: 0vw;
+
+}
+
+
+.slut {
+
+    background-image: url("Level_Complete.svg");
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+    margin: auto;
+    z-index: -5;
+    position: relative;
+    overflow: visible;
+    display: none;
+}
+
+
+
+.level_complete {
+
+    background-image: url("Level_Complete.svg");
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+    margin: auto;
+    z-index: -5;
+    position: relative;
+    overflow: visible;
+    display: none;
+}
+
+.slut {
+
+    background-image: url("slut.svg");
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+    margin: auto;
+    z-index: -5;
+    position: relative;
+    overflow: visible;
+    display: none;
+
+}
